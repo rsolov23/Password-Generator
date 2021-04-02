@@ -1,27 +1,17 @@
 // Assignment code here
-// var characterAmountRange = document.getElementById("characterAmountRange");
-// var characterAmountNumber = document.getElementById("characterAmountNumber");
-// var includeNumbers = document.getElementById("includeNumbers");
-// var includeUppercase = document.getElementById("includeUppercase");
-// var includeLowercase = document.getElementById("includeLowercase");
-// var includeSymbols = document.getElementById("includeSymbols");
-
-var lowerCase = ["a", "b", "c", "d"];
-var upperCase = ["A", "B", "C", "D"];
-var symbols = ["!", "@", "#", "$", "%", "^", "&", "*", "~"];
-var numbers = ["1", "2", "3", "4"];
+var lowerCase = ["a", "b", "c", "d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z",];
+var upperCase = ["A", "B", "C", "D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+var specialCharacters = ["!", "@", "#", "$", "%", "^", "&", "*", "~","(",")","-","_","=","+","{","}","[","]","<","|",">","?"];
+var numbers = ["1", "2", "3", "4","5","6","7","8","9","0"];
 
 function generatePassword() {
-  // console.log(characterAmountRange.value);
-  // console.log(characterAmountNumber.value);
 
-  // console.log(includeNumbers.checked);
   var charactersToUse = [];
   var passwordSize = prompt("pick between 8-128");
   var password = "";
 
   while (passwordSize < 8 || passwordSize > 128) {
-    alert("yo that's not the right number");
+    alert("Please enter a number between 8 and 128");
     passwordSize = prompt("I said 8 to 128!");
   }
 
@@ -47,13 +37,13 @@ function generatePassword() {
     charactersToUse = charactersToUse.concat(lowerCase);
   }
   if (addUpper) {
-    charactersToUse = [...charactersToUse, ...upperCase];
+    charactersToUse = charactersToUse.concat(upperCase);
   }
   if (addNumeric) {
-    charactersToUse = [...charactersToUse, ...numbers];
+    charactersToUse = charactersToUse.concat(numbers);
   }
   if (addSpecial) {
-    charactersToUse = [...charactersToUse, ...symbols];
+    charactersToUse = charactersToUse.concat(specialCharacters);
   }
   // console.log(charactersToUse);
   for (var x = 0; x < passwordSize; x++) {
