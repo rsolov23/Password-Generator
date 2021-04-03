@@ -30,7 +30,7 @@ This is a Password Generator to help obtain secure passwords.
 
 https://github.com/rsolov23/
 
-### Link to my Portfolio
+### Link to my Password Generator
 
  https://rsolov23.github.io/Password-Generator/
 
