@@ -10,7 +10,7 @@ function generatePassword() {
   var passwordSize = prompt("Pick a number between 8-128");
   var password = "";
 // while condition to keep unwanted input
-  while (passwordSize < 8 || passwordSize > 128) {
+  while (passwordSize < 8 || passwordSize > 128 || passwordSize > isNaN ) {
     alert("Please enter a number between 8 and 128.");
     passwordSize = prompt("Please enter a number between 8 and 128!");
   }
