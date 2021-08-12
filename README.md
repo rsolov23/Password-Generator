@@ -1,6 +1,6 @@
-![A screenshot of the web page](Screenshot.png) 
+![A screenshot of the web page](/assets/images/Screenshot.png)
 
-#  Password Generator
+# 🌟Password Generator🌟
 
 ## Table of Contents
 
@@ -20,19 +20,18 @@ This is a Password Generator to help obtain secure passwords.
 2. Type any number between 8-128 then click "OK"
 3. Click OK to choose a lowercase letter or Cancel to proceed without lowercase
 4. Click OK to choose a uppercase letter or Cancel to proceed without uppercase
-5. Click OK to choose a numeric characters or Cancel to proceed without numeric characters 
+5. Click OK to choose a numeric characters or Cancel to proceed without numeric characters
 6. Click OK to choose a special character or Cancel to proceed without special character
 7. Based on your selections a secure password is generated
 
-
-
 ### Github Profile
 
-https://github.com/rsolov23/
+- https://github.com/rsolov23/
+- https://github.com/rsolov23/Password-Generator
 
 ### Link to my Password Generator
 
- https://rsolov23.github.io/Password-Generator/
+- https://rsolov23.github.io/Password-Generator/
 
 ### Contributors
 
